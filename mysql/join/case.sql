@@ -26,9 +26,9 @@ from tbl_emp a
 where a.deptId is null;
 
 # 6 AB全有
-select * from tbl_emp
+select * from tbl_emp a left join tbl_emp b on a.deptId = b.id
 union
-select * from tbl_dept;
+select * from tbl_emp a right join tbl_dept b on a.deptId = b.id;
 
 # 7 A的独有+B的独有
 select *
