@@ -1,6 +1,5 @@
-package com.atguigu.review.function;
+package org.example.review.function;
 
-import java.util.Locale;
 import java.util.UUID;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -12,7 +11,7 @@ interface Foo {
 }
 
 /**
- * @author ygx
+ * @author haisky
  */
 public class FunctionInterface {
     public static void main(String[] args) {

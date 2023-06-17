@@ -1,11 +1,11 @@
-package com.atguigu.review.enums;
+package org.example.review.enums;
 
 import lombok.Getter;
 
 import java.util.Arrays;
 
 /**
- * @author ygx
+ * @author haisky
  */
 public enum SeasonEnum {
     SPRING("spring", "春季"),
