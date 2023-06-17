@@ -16,6 +16,9 @@ interface Foo {
  */
 public class FunctionInterface {
     public static void main(String[] args) {
+    }
+
+    private static void predicate() {
         Predicate<String> predicate = new Predicate<String>() {
             @Override
             public boolean test(String s) {
